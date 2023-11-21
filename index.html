@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pixabay Image Search Engine">
+    <meta name="keywords" content="Image, Search, Pixabay">
+    <meta name="author" content="Nik & Jörgen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nik & Jörgens bildsökmotor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Pixabay Image Search</h1>
+        <form>
+            <input type="text" name="motive">
+            <select name="selectColor" id="color">
+                <option value="">Any color</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+                <option value="pink">Pink</option>
+                <option value="brown">Brown</option>
+                <option value="turquoise">Turquoise</option>
+                <option value="lilac">Lilac</option>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+                <option value="gray">Gray</option>
+                <option value="grayscale">Grayscale</option>
+                <option value="transparent">Transparent</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </header>
+
+    
+	<div id="collage"></div>
+
+    <button class="pageBtn" type="button" id="previousBtn">Previous page</button>
+    <button class="pageBtn" type="button" id="nextBtn">Next page</button>
+</body>
+</html>

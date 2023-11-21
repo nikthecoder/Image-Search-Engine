@@ -1,0 +1,98 @@
+* {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    overflow-anchor: none;
+}
+
+body {
+    background-image: url("wallpaper.jpg");  
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+form {
+    margin: 20px;
+}
+
+input {
+    height: 43px;
+    width: 400px;
+    font-size: 18px;
+    border-style: double;
+    border-color: black;
+    margin-right: 20px;
+}
+
+select, button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 0;
+    border-style: double;
+    border-color: black;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    margin-left: 20px;
+}
+
+.pageBtn{
+    display: none;
+    margin: 20px;
+    font-size: large;
+}
+
+#collage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px){
+
+    h1 {
+        padding: 10px;
+    }
+
+    select, button[type="submit"] {
+        width: 100px;
+        margin: 5px 5px;
+    }
+
+    #collage {
+        align-items: center;
+    }
+
+    .pageBtn{
+        margin: 10px;
+    }
+}
+
+@media (max-width: 600px){
+
+    h1 {
+        font-size: 50px;
+    }
+    
+    input {
+        width: 250px;
+        margin: auto;
+    }
+}
